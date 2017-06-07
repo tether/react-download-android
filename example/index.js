@@ -11,6 +11,6 @@ import Badge from '..'
  */
 
 ReactDOM.render(
-  <Badge id="id1208564443"/>,
+  <Badge id="com.petrofeed.workidapp"/>,
   document.querySelector('main')
 )
