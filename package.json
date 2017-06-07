@@ -1,0 +1,20 @@
+
+{
+  "name": "react-download-android",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tether/react-download-android.git"
+  },
+  "keywords": [
+    "tether"
+  ],
+  "author": "Petrofeed Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tether/react-download-android/issues"
+  },
+  "homepage": "https://github.com/tether/react-download-android#readme"
+}
