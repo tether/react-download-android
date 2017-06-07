@@ -2,19 +2,30 @@
 {
   "name": "react-download-android",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Google Play Store download badge as a React component",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tether/react-download-android.git"
   },
   "keywords": [
-    "tether"
+    "tether",
+    "google-play-store",
+    "download",
+    "badge"
   ],
   "author": "Petrofeed Inc",
   "license": "MIT",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/tether/react-download-android/issues"
   },
-  "homepage": "https://github.com/tether/react-download-android#readme"
+  "homepage": "https://github.com/tether/react-download-android#readme",
+  "devDependencies": {
+    "react-fatigue-dev": "github:tj/react-fatigue-dev#704f778"
+  }
 }
